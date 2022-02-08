@@ -1,0 +1,8 @@
+div {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+div *:not(input, button) {
+    margin-left: 20px;
+}
